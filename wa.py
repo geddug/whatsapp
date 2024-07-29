@@ -53,8 +53,7 @@ def kirim_wa():
                     sent = False
                     driver.get(url)
                     try:
-                        click_btn = WebDriverWait(driver, 35).until(
-                            EC.element_to_be_clickable((By.CLASS_NAME, 'x1lfpgzf')))
+                        click_btn = WebDriverWait(driver, 35).until(EC.element_to_be_clickable((By.CSS_SELECTOR, '[data-icon="send"]')))
                     except Exception as e:
                         print("Sorry message could not sent to " + str(nomor))
                     else:
