@@ -5,4 +5,4 @@ kirim whatsapp
 - lalu run python wa.py / python3 wa.py
 - login wa, lalu press enter di bash python setelah login
 - parameter kirim pesan: pesan, nomor, img(opsional)
-- contoh: localhost/whatsapp/?p=isi pesan&nomor=082xxxxx
+- contoh: localhost/whatsapp/?pesan=isi pesan&nomor=082xxxxx
